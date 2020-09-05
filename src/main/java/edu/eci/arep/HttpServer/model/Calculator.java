@@ -16,7 +16,7 @@ public class Calculator {
      * return el valor de la tangente del numero
      */
     public final Operations cos = (Double num) -> {    
-        return Math.tan(num);
+        return Math.cos(num);
     };
     /**
      * Calcula el seno de un numero
@@ -25,7 +25,7 @@ public class Calculator {
      * return el valor de la tangente del numero
      */
     public final Operations sin = (Double num) -> {    
-        return Math.tan(num);
+        return Math.sin(num);
     };
     /**
      * Calcula la tangente de un numero

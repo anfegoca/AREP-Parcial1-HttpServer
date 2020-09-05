@@ -29,14 +29,15 @@ public class SparkWebApp {
         String oper = req.queryParams("oper");
         Double num = Double.parseDouble(req.queryParams("number"));
         Double respuesta=0.0;
+        
         switch (oper) {
-            case ("sin"):
+            case "sin":
                 respuesta = Calculator.getInstance().operate(num, Calculator.getInstance().sin);
                 break;
-            case ("cos"):
+            case "cos":
                 respuesta = Calculator.getInstance().operate(num, Calculator.getInstance().cos);
                 break;
-            case ("tan"):
+            case "tan":
                 respuesta = Calculator.getInstance().operate(num, Calculator.getInstance().tan);
                 break;
         }
